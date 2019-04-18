@@ -8,17 +8,17 @@ Averaging multiple b0 images (if applicable).
 Corrects for eddy current distortions.
 Runs bedpostx on preprocessed data (default settings).
 
-```MNITransform.sh```
+```mniTransform.sh```
 Fits diffusion data to MNI152 (2mm) template to obtain MNI transformation matrix.
 Inverts MNI transformation to allow registration of standard MNI regions to subject space.
 Output saved within subject directory.
 
-```TransformSeedsWaypointsTargets.sh```
+```transformSeedsWaypointsTargets.sh```
 Converts standard masks in MNI space to subject space.
 Creates waypoints and avoid masks for probtrackx.
 Output saved within subject directory.
 
-```Tractography.sh```
+```tractography.sh```
 Runs probtrackx for multiple different tracks (default settings minus curvature value).
 Output saves in separate analysis path distinct from raw data.
 
@@ -26,7 +26,7 @@ Output saves in separate analysis path distinct from raw data.
 Each script can be run standalone in case of error or user specific needs (e.g. do not want to run probtackx at the time). Add --help after each script to bring up the help dialog for more information on specific requirements for each script.
 
 
-```automated_DTI_tracking.sh --subj <subjectID> --proj <projectID> --folder <nameOfFolder> --format <typeOfData>```
+```sh automatedDTIProcessingPipeline.sh --subj <subjectID> --proj <projectName> --folder <nameOfFolder> --format <typeOfData>```
 
 
 

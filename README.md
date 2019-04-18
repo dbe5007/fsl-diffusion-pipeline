@@ -30,7 +30,7 @@ Each script can be run standalone in case of error or user specific needs (e.g. 
 
 
 
-Misc
+## Misc
 
-createPBS_scripts
+**createPBSscripts**
 Shell scripts to batch create and run PBS scripts for use with this pipeline

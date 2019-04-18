@@ -26,9 +26,7 @@ Output saves in separate analysis path distinct from raw data.
 Each script can be run standalone in case of error or user specific needs (e.g. do not want to run probtackx at the time). Add --help after each script to bring up the help dialog for more information on specific requirements for each script.
 
 
-.. code:: sh
-
-automated_DTI_tracking.sh --subj <subjectID> --proj <projectID> --folder <nameOfFolder> --format <typeOfData>
+```automated_DTI_tracking.sh --subj <subjectID> --proj <projectID> --folder <nameOfFolder> --format <typeOfData>```
 
 
 
